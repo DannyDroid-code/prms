@@ -10,10 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" >
     <title>Prisoner</title>
     <style>
-       body {
-         display: block;
-         text-align:center;
-       }
+       
         input{
     width: 30%;
     height: 5%;
@@ -22,8 +19,14 @@
     box-shadow: 1px 1px 1px 1px;
   
         }
+        body{
+          background-color: lightblue;
+        }
+        
     </style>
+    
   </head>
+  <h2>Prisoner Details</h2>
   <body>
     <div class="container my-5">  
     <form action="" method="post" enctype="multipart/form-data">
